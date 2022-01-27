@@ -1,1 +1,211 @@
 /* Add CSS styling here */
+* {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 62.5%
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    width: 100%;
+}
+
+.header-nav {   
+    display: flex;
+}
+
+.button {
+    background-color: white;
+    border: .2rem solid black;
+    width: 8rem;
+    padding: 1rem;
+    color: black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-tag {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.intro-title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.intro {
+    font-size: 2rem;
+    text-align: center;
+    margin: 4rem 10rem 4rem 10rem;
+}
+
+.body-image {
+    width: 100%;
+    height: 40rem;
+    max-width: 100%;
+}
+
+.side-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-one {
+    width: 15%;
+    margin: 2rem;
+}
+.image-two {
+    width: 15%;
+    margin: 2rem;
+}
+.image-three {
+    width: 15%;
+    margin: 2rem;
+}
+.image-four {
+    width: 15%;
+    margin: 2rem;
+}
+
+.desc {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.footer {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.footer-button {
+    background-color: white;
+    border: .2rem solid black;
+    border-collapse: collapse;
+    width: 10rem;
+    padding: 1rem;
+    margin: 4rem;
+    color: black;
+}
+
+.footer-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-nav-tag{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 800px) {
+    .intro {
+        font-size: 1.5rem;
+    }
+
+    .body-image {
+        height: 20rem; 
+    }
+
+    .side-images {
+        display: flex;
+        align-items: center;
+    }
+
+    .image-one {
+     
+        margin: 0.5rem;
+    }
+    .image-two {
+       
+        margin: 0.5rem;
+    }
+    .image-three {
+       
+        margin: 0.5rem;
+    }
+    .image-four {
+        
+        margin: 0.5rem;
+    }
+
+    .desc {
+        font-size: 1.3rem;
+    }
+
+    .footer {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-nav {   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        width: 15rem
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .intro-title {
+        font-size: 2.5rem;;
+    }
+
+    .intro {
+        margin: 2rem 3.5rem 2rem 3.5rem;
+    }
+
+    .body-image {
+        height: 15rem; 
+    }
+
+    .side-images {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .image-one {
+        width: 20%;    
+    }
+    .image-two {
+        width: 20%;
+    }
+    .image-three {
+        width: 20%;
+    }
+    .image-four {
+        width: 20%;
+    }
+
+    .desc {
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .footer {
+        padding: 1rem;
+    }
+}
