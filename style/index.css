@@ -1,6 +1,7 @@
 /* Add CSS styling here */
 * {
     font-family: 'Source Code Pro', monospace;
+    font-size: 62.5%
 }
 .header {
     display: flex;
@@ -11,7 +12,7 @@
 .title {
     display: flex;
     justify-content: center;
-    font-size: 4em;
+    font-size: 6rem;
     width: 100%;
 }
 
@@ -21,9 +22,9 @@
 
 .button {
     background-color: white;
-    border: .2em solid black;
-    width: 8em;
-    padding: 1em;
+    border: .2rem solid black;
+    width: 8rem;
+    padding: 1rem;
     color: black;
 }
 
@@ -34,23 +35,25 @@
 }
 
 .nav-tag {
+    font-size: 1.2rem;
     text-decoration: none;
     color: inherit;
 }
 
 .intro-title {
-    font-size: 2.5em;
+    font-size: 4rem;
     text-align: center;
 }
 
 .intro {
+    font-size: 2rem;
     text-align: center;
-    margin: 4em 10em 4em 10em;
+    margin: 4rem 10rem 4rem 10rem;
 }
 
 .body-image {
     width: 100%;
-    height: 25em;
+    height: 40rem;
     max-width: 100%;
 }
 
@@ -61,40 +64,42 @@
 
 .image-one {
     width: 15%;
-    margin: 2em;
+    margin: 2rem;
 }
 .image-two {
     width: 15%;
-    margin: 2em;
+    margin: 2rem;
 }
 .image-three {
     width: 15%;
-    margin: 2em;
+    margin: 2rem;
 }
 .image-four {
     width: 15%;
-    margin: 2em;
+    margin: 2rem;
 }
 
 .desc {
+    font-size: 2rem;
     display: flex;
     align-items: center;
-    margin: 2em;
+    margin: 2rem;
 }
 
 .footer {
     background-color: lightgrey;
     display: flex;
     justify-content: center;
-    padding: 5em;
+    padding: 5rem;
 }
 
 .footer-button {
     background-color: white;
-    border: .2em solid black;
+    border: .2rem solid black;
     border-collapse: collapse;
-    width: 10em;
-    padding: 1em;
+    width: 10rem;
+    padding: 1rem;
+    margin: 4rem;
     color: black;
 }
 
@@ -105,13 +110,18 @@
 }
 
 .footer-nav-tag{
+    font-size: 1.2rem;
     text-decoration: none;
     color: inherit;
 }
 
 @media (max-width: 800px) {
+    .intro {
+        font-size: 1.5rem;
+    }
+
     .body-image {
-        height: 20em; 
+        height: 20rem; 
     }
 
     .side-images {
@@ -120,24 +130,28 @@
     }
 
     .image-one {
-        width: 10%;
-        height: 10em;
-        margin: 0.5em;
+     
+        margin: 0.5rem;
     }
     .image-two {
-        width: 10%;
-        height: 10em;
-        margin: 0.5em;
+       
+        margin: 0.5rem;
     }
     .image-three {
-        width: 10%;
-        height: 10em;
-        margin: 0.5em;
+       
+        margin: 0.5rem;
     }
     .image-four {
-        width: 10%;
-        height: 10em;
-        margin: 0.5em;
+        
+        margin: 0.5rem;
+    }
+
+    .desc {
+        font-size: 1.3rem;
+    }
+
+    .footer {
+        padding: 3rem;
     }
 }
 
@@ -148,19 +162,23 @@
     }
 
     .button {
-        width: 15em
+        width: 15rem
     }
 
     .title {
-        font-size: 3em;
+        font-size: 4rem;
+    }
+
+    .intro-title {
+        font-size: 2.5rem;;
     }
 
     .intro {
-        margin: 2em 3em 2em 3em;
+        margin: 2rem 3.5rem 2rem 3.5rem;
     }
 
     .body-image {
-        height: 10em; 
+        height: 15rem; 
     }
 
     .side-images {
@@ -170,28 +188,24 @@
     }
 
     .image-one {
-        width: 20%;
-        height: 10em;
-        margin: 0.5em;
+        width: 20%;    
     }
     .image-two {
         width: 20%;
-        height: 10em;
-        margin: 0.5em;
     }
     .image-three {
         width: 20%;
-        height: 10em;
-        margin: 0.5em;
     }
     .image-four {
         width: 20%;
-        height: 10em;
-        margin: 0.5em;
     }
 
     .desc {
         text-align: center;
-        margin: 1em;
+        margin: 1rem;
+    }
+
+    .footer {
+        padding: 1rem;
     }
 }
